@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#09A854">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#09A854">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#09A854">
+    <meta
+      name="description"
+      content="Use HirePesin app to find and locate artisans and  handymen services nearby.Using hirepesin, you have access or connect to users who are in need of services of artisans who are seeking for quick jobs.  Anyone can register his/her hustle to be hired online."
+    />
+    <meta name="author" content="HirePesin" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="shortcut icon"
+      href="./favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hirepesin - Coming Soon</title>
+
+    <link rel="stylesheet" href="./css/tailwind.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="loading" id="loader-load">
+     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+     <img src="/img/logo-icon.svg" loading='lazy' width="80px" alt="Logo Icon">
+        <h3 class="my-3"><b>Loading</b></h3>
+     </div>
+    </div>
+
+    <!-- HEADER -->
+
+    <header
+      id="header"
+      class="header h-20 absolute z-10 left-0 right-0 flex px-20 justify-between items-center"
+    >
+      <a href="/" class="header__logo flex-shrink-0"
+        ><img src="/img/logo 2.svg" alt="Hirepesin logo" class="logo"
+      /></a>
+
+      <ul
+        class="header__nav-links flex items-center justify-evenly w-100 text-sm"
+      >
+        <li><a href="#" class="link active px-3">Home</a></li>
+        <li><a href="#about" rel="canonical" class="link px-3">About</a></li>
+        <!-- <li><a href="#services"  class="link px-3">Services</a></li> -->
+        <li><a href="#faq" rel="canonical" class="link px-3">FAQ</a></li>
+        <li>
+          <button
+            class="btn pointer header_get-notified-btn p-2 px-4 mx-4 rounded-2xl ring-2"
+            type="submit"
+          >
+            <i class="fa fa-joint"></i> Join Waitlist
+          </button>
+        </li>
+      </ul>
+      <div class="blur-nav-bg"></div>
+
+      <div class="hamburger mt-5 pointer hidden">
+        <span class="block w-6 bar-1 h-1 my-1 rounded bg-white bar bar1"></span>
+        <span class="block w-6 bar-2 h-1 my-1 rounded bg-white bar bar2"></span>
+        <span class="block w-6 bar-3 h-1 my-1 rounded bg-white bar bar3"></span>
+      </div>
+    </header>
+
+    <!-- HERO -->
+
+    <section
+      id="banner"
+      class="hero flex justify-around items-center p-6 relative"
+    >
+      <!-- Intro text -->
+      <div class="intro-text m-4 my-20" data-aos="fade-up" data-aos-duration="340" >
+        <div class="container">
+          <h3 class="text-sm uppercase font-bold opacity-80 parallax-layer">
+            - coming soon -
+          </h3>
+          <h1 class="heading text-5xl font-bold py-3 parallax-layer">
+            <span class="inner-heading-text block py-2"
+              >Get notified when
+            </span>
+            <span class="inner-heading-text block py-2">we launch</span>
+          </h1>
+          <p
+            class="intro-paragraph text-xsm opacity-90 pb-8 max-w-lg parallax-layer"
+          >
+            We are connecting users to qualified top notch artisans and handymen
+            services nearby, we will use your location to connect you with the
+            most suitable artisans who are near you and you get the choice to
+            pick the ones you deem fit for the job.
+          </p>
+        </div>
+
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup" class="parallax-layer">
+          <form
+            action="https://hirepesin.us1.list-manage.com/subscribe/post?u=9b6ac4d9f94239ca9d9c27159&amp;id=37ee72675d"
+            autocomplete="off"
+            aria-autocomplete="none"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate relative flex bg-white h-16 rounded-full items-center"
+            target="_blank"
+            validate
+          >
+            <label
+              for="email"
+              class="absolute z-10 bg-green-opacity-70 p-1 px-2 text-black rounded-full text-xsm position -top-4 left-2"
+              >Email Address</label
+            >
+
+            <div class="container h-inherit flex items-center">
+              <span class="icon input-status block ml-4 mr-1 mt-1"
+                ><i class="text-black text-2xl fa fa-envelope-open"></i
+              ></span>
+              <input
+                type="email"
+                title="Email Address"
+                value=""
+                name="EMAIL"
+                class="email text-black px-2 text-xsm outline-none"
+                id="mce-EMAIL"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <!-- <input type="text" name="b_9b6ac4d9f94239ca9d9c27159_37ee72675d"  value=""> -->
+            <button
+              type="submit"
+              aria-label="Subsribe"
+              name="subscribe"
+              id="mc-embedded-subscribe"
+              class="button block p-4 text-black px-6 text-sm shadow-lg hover:text-white transition-all text-bold bg-green mx-2 rounded-full"
+            >
+              <i class="fa fa-paper-plane"></i>
+            </button>
+          </form>
+          <p class="py-1 px-4 max-w-sm">
+            Subscribe now to join our
+            <span
+              class="inline-block px-4 bg-green-400 rounded-full bg-green-opacity-70"
+              >waitlist</span
+            >
+            so we can notify you when we go live...
+          </p>
+        </div>
+
+        <!--End mc_embed_signup-->
+      </div>
+
+      <!-- Banner image -->
+      <div class="intro-hero-image parallax-layer">
+        <img
+          src="./img/dashboard.png"
+          alt="splash screen of hirepesin app with logo"
+        />
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+
+    <section id="services" class="flex justify-around items-center">
+      <!-- service start -->
+      <div class="service"  data-aos="fade-up" data-aos-delay="0" >
+        <div class="" >
+          <div class="icon"><img src="./img/icon-email.svg" alt="Icon" /></div>
+          <h3>Lorem, ipsum dolor.</h3>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ea vel
+            tempora repudiandae quibusdam porro sint, ullam a!
+          </p>
+        </div>
+        <div class="before"></div>
+      </div>
+      <!-- service stop -->
+      <!-- service start -->
+      <div class="service"  data-aos="fade-up" data-aos-delay="200" >
+        <div class="">
+          <div class="icon"><img src="./img/icon-notch.svg" alt="Icon" /></div>
+          <h3>Lorem, ipsum dolor.</h3>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ea vel
+            tempora repudiandae quibusdam porro sint, ullam a!
+          </p>
+        </div>
+        <div class="before"></div>
+      </div>
+      <!-- service stop -->
+      <!-- service start -->
+      <div class="service"  data-aos="fade-up" data-aos-delay="400" >
+        <div class="">
+          <div class="icon"><img src="./img/icon-speedy.svg" alt="Icon" /></div>
+          <h3>Lorem, ipsum dolor.</h3>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ea vel
+            tempora repudiandae quibusdam porro sint, ullam a!
+          </p>
+        </div>
+        <div class="before"></div>
+      </div>
+      <!-- service stop -->
+    </section>
+
+    <!-- EXPLORE -->
+
+    <!-- <section id="explore">
+      <div class="category heading">
+        Explore By
+        <p>Categories</p>
+      </div>
+      <div class="category cat"></div>
+      <div class="category cat"></div>
+      <div class="category cat"></div>
+      <div class="category cat"></div>
+      <div class="category cat"></div>
+    </section> -->
+
+    <!-- ABOUT US -->
+
+    <section id="about" class="r m-auto mx-10">
+      <!-- about us image -->
+      <div class="about-us-image-container" data-aos="fade-down-right">
+        <img src="/img/399a985bd5bece9ddf8323237acf968c.webp" class="about-us-img" alt="About us" />
+      </div>
+
+      <!-- about us text -->
+      <div class="about-us-text">
+        <div class="box box-green absolute -top-6 -left-5"  data-aos="fade-up" data-aos-delay="200" ></div>
+        <hr />
+        <h2 class="about-heading" data-aos="fade-right">About HirePesin</h2>
+        <h4 data-aos="fade-up" data-aos-delay="200" class="about-sub-heading font-weight-thin flex">
+          Who We Are !!
+          <hr />
+        </h4>
+
+        <p class="about-info"  data-aos="fade-up" data-aos-delay="0" >
+          HirePesin saves you the stress of going out to look for someone who
+          can come do a little job for you.
+        </p>
+
+        <p class="about-info"  data-aos="fade-up" data-aos-delay="200" >
+          Hirepesin is an innovative platform that is focused on connecting
+          users who are in need of services or quick fix jobs to top-notch and
+          professional artisans or local craftsman around your area. We want to
+          break the chain of unemployment and under employment amongst the
+          youths and artisans.
+        </p>
+
+        <p class="about-info"  data-aos="fade-up" data-aos-delay="300" >
+          Get your hustle online with HirePesin, whatever it is you do, we have
+          created a modernized way for your services to be hired and managed
+          without stress.
+        </p>
+
+        <p class="about-info"  data-aos="fade-up" data-aos-delay="400" >
+          Get access to artisans and people seeking artisans using the HirePesin
+          app, stress-free!
+        </p>
+
+        <a class="info flex items-center" href="#how-it-works-1">
+          <div class="icon flex items-center justify-center">
+            <i class="fa fa-arrow-down"></i>
+          </div>
+          <span>Keep Scrolling</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+
+    <section id="how" class="how-it-works">
+      <div class="heading flex justify-around">
+        <div class="" data-aos="fade-down">
+          <h2  data-aos="fade-down" data-aos-delay="200">HOW IT WORKS</h2>
+          <p>
+            Don't be Afraid to try new stuff, Because its easy like One, Two,
+            Three.
+          </p>
+        </div>
+      </div>
+      <!-- how start -->
+      <div class="how flex justify-around" id="how-it-works-1">
+        <div class="how-info parallax-layer">
+          <h2  data-aos="fade-down">Sign Up To Hire or Get Hired.</h2>
+          <p  data-aos="fade-up" data-aos-delay="200">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            voluptas perspiciatis facere non aspernatur reprehenderit soluta
+            explicabo sequi, ut fugit voluptatibus sunt maiores, accusamus, et
+            repellendus temporibus beatae nostrum mollitia.
+          </p>
+
+          <a class="info flex items-center" href="#how-it-works-2"  data-aos="fade-up">
+            <div class="icon flex items-center justify-center">
+              <i class="fa fa-arrow-down"></i>
+            </div>
+            <span>Keep Scrolling</span>
+          </a>
+        </div>
+
+        <div class="how-image parallax-layer">
+          <img  data-aos="fade-down-right"
+            src="./img/login.png"
+            alt="Hirepesin App Login Interface"
+            width="250"
+          />
+          <div class="how-image-box"></div>
+        </div>
+      </div>
+      <!-- how end -->
+
+      <!-- how start -->
+      <div class="how flex justify-around" id="how-it-works-2">
+        <div class="how-info parallax-layer">
+          <h2  data-aos="fade-down">Upload a clear Photo of You.</h2>
+          <p data-aos="fade-up" data-aos-delay="200">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            voluptas perspiciatis facere non aspernatur reprehenderit soluta
+            explicabo sequi, ut fugit voluptatibus sunt maiores, accusamus, et
+            repellendus temporibus beatae nostrum mollitia.
+          </p>
+
+          <a class="info flex items-center" href="#how-it-works-3" data-aos="fade-up">
+            <div class="icon flex items-center justify-center">
+              <i class="fa fa-arrow-down"></i>
+            </div>
+            <span>Keep Scrolling</span>
+          </a>
+        </div>
+
+        <div class="how-image parallax-layer">
+          <img data-aos="fade-down-right"
+            src="./img/profile.png"
+            alt="Hirepesin App Profile Infomation Interface"
+            width="250"
+          />
+          <div class="how-image-box"></div>
+        </div>
+      </div>
+      <!-- how end -->
+
+      <!-- how start -->
+      <div class="how flex justify-around" id="how-it-works-3">
+        <div class="how-info parallax-layer">
+          <h2  data-aos="fade-down">Search For Artisans Nearby.</h2>
+          <p data-aos="fade-up" data-aos-delay="200">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            voluptas perspiciatis facere non aspernatur reprehenderit soluta
+            explicabo sequi, ut fugit voluptatibus sunt maiores, accusamus, et
+            repellendus temporibus beatae nostrum mollitia.
+          </p>
+
+          <a class="info flex items-center" href="#how-it-works-4" data-aos="fade-up">
+            <div class="icon flex items-center justify-center">
+              <i class="fa fa-arrow-down"></i>
+            </div>
+            <span>Keep Scrolling</span>
+          </a>
+        </div>
+
+        <div class="how-image parallax-layer">
+          <img data-aos="fade-down-right"
+            src="./img/search.png"
+            alt="Hirepesin App Search page Interface"
+            width="250"
+          />
+          <div class="how-image-box"></div>
+        </div>
+      </div>
+      <!-- how end -->
+
+      <!-- how start -->
+      <div class="how flex justify-around" id="how-it-works-4">
+        <div class="how-info parallax-layer">
+          <h2 data-aos="fade-down">Accept Proposal and Choose Payment Method.</h2>
+          <p data-aos="fade-up" data-aos-delay="200">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            voluptas perspiciatis facere non aspernatur reprehenderit soluta
+            explicabo sequi, ut fugit voluptatibus sunt maiores, accusamus, et
+            repellendus temporibus beatae nostrum mollitia.
+          </p>
+
+          <a class="info flex items-center" href="#cta" data-aos="fade-up">
+            <div class="icon flex items-center justify-center">
+              <i class="fa fa-arrow-down"></i>
+            </div>
+            <span>Keep Scrolling</span>
+          </a>
+        </div>
+
+        <div class="how-image parallax-layer">
+          <img data-aos="fade-down-right"
+            src="./img/payment.png"
+            alt="Hirepesin App Method of Payment  Interface"
+            width="250"
+          />
+          <div class="how-image-box"></div>
+        </div>
+      </div>
+      <!-- how end -->
+    </section>
+
+    <!-- CALL TO ACTION -->
+
+    <section id="cta">
+      <div class="heading">
+        <h2 data-aos="fade-down">Download Mobile App</h2>
+        <p data-aos="fade-up">
+          Download our Mobile App to See all Features, User friendly and
+          technologically up to data
+        </p>
+        <div class="flex my-4">
+          <button class="btn coming-soon-btn" aria-label="Chop App coming to play store soon" aria-readonly="true" aria-required="true">
+            <span class="icon"><img src="/img/playstore.svg" alt="Play Store Logo"></span>
+            <div class="text">
+              <span>Coming Soon on</span>
+              <h4>Play Store</h4>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="flex cta-column items-center justify-center">
+        <img data-aos="fade-up"
+          src="./img/splah-screen-with-logo.png"
+          alt="Splash screen with Hirepesin logo"
+        />
+        <img src="./img/login.png" data-aos="fade-up" alt="Hirepesin App Login Interface" />
+        <img data-aos="fade-up" data-aos-delay="200"
+          src="./img/profile.png" data-aos="fade-up" data-aos-delay="300"
+          alt="Hirepesin App Profile Infomation Interface"
+        />
+        <img src="./img/search.png" data-aos="fade-up" data-aos-delay="400"alt="Hirepesin App Search page Interface" />
+        <img
+          src="./img/payment.png" data-aos="fade-up" data-aos-delay="400"
+          alt="Hirepesin App Method of Payment  Interface"
+        />
+        <img data-aos="fade-up" data-aos-delay="500"
+          src="./img/dashboard.png"
+          alt="Hirepesin App Home screen dashboard Interface"
+        />
+      </div>
+      <div></div>
+    </section>
+
+    <!-- FAQ -->
+
+    <section id="faq">
+      <div class="heading">
+        <h2 data-aos="fade-down-right">FAQ</h2>
+        <p data-aos="fade-down-right">FREQUENTLY ASKED QUESTION</p>
+      </div>
+
+      <div class="faq" data-aos="fade-down">
+        <div class="question">
+          <span class="quest"
+            >• Can I hire a person using the app without creating an
+            account?</span
+          >
+          <span class="icon fa fa-plus"></span>
+        </div>
+        <div class="answer">
+          <span>
+            Absolutely not, you need to create an account to find artisans who
+            are nearby, and also artisans need to create an account too in order
+            for them to appear when searched for.
+          </span>
+        </div>
+      </div>
+
+      <div class="faq" data-aos="fade-down">
+        <div class="question">
+          <span class="quest">• How much does it cost to sign up?</span>
+          <span class="icon fa fa-plus"></span>
+        </div>
+        <div class="answer">
+          <span>
+            It is free! But meanwhile there are minor charges for in-app
+            transactions.
+          </span>
+        </div>
+      </div>
+
+      <div class="faq" data-aos="fade-down">
+        <div class="question">
+          <span class="quest"
+            >• Is there any age restriction for creating an account?</span
+          >
+          <span class="icon fa fa-plus"></span>
+        </div>
+        <div class="answer">
+          <span>
+            Yes, we care about the safety of anyone using the app and hence, a
+            user has to be at least 15...
+          </span>
+        </div>
+      </div>
+
+      <div class="faq" data-aos="fade-down">
+        <div class="question">
+          <span class="quest"
+            >• How do I know if the artisan recommended is qualified, is there
+            any rating?</span
+          >
+          <span class="icon fa fa-plus"></span>
+        </div>
+        <div class="answer">
+          <span>
+            There are ratings, once an artisan does a job for you, you can leave
+            a rating which is on the 5 star scale, and our algorithms get to do
+            rest as it gives artisans with higher rating much visibility when
+            searched for.
+          </span>
+        </div>
+      </div>
+
+      <div class="faq" data-aos="fade-down">
+        <div class="question">
+          <span class="quest"
+            >• long does it take for an artisan to arrive?</span
+          >
+          <span class="icon fa fa-plus"></span>
+        </div>
+        <div class="answer">
+          <span>
+            It will take an average of 30-60 minutes for an artisan to arrive,
+            once you have pinged or dialed up.
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER  -->
+
+    <div class="my-4">
+      <footer id="footer" class="flex py-16 justify-between column">
+        <div class="flex justify-around fl_">
+          <a href="/">
+            <img src="./img/logo 2.svg" class="logo" alt="HirePesin Logo"
+          /></a>
+          <div class="flex">
+            <ul class="footer_Links">
+              <li><a href="/#faq">FAQ</a></li>
+              <li><a href="mailto:contact@hirepesin.com">Contact Us</a></li>
+              <li><a href="/">Jobs</a></li>
+            </ul>
+
+            <ul class="footer_Links">
+              <li><a href="/#about">About Us</a></li>
+              <li><a href="/">Get In Touch</a></li>
+            </ul>
+          </div>
+        </div>
+        <a class="info flex items-center" href="#">
+          <div class="icon flex items-center justify-center">
+            <i class="fa fa-arrow-up"></i>
+          </div>
+          <span>Back To Top</span>
+        </a>
+      </footer>
+      <div class="footer flex justify-between items-center">
+        <p class="copyright"><span>&copy;</span> HirePesin 2021</p>
+
+        <div class="flex">
+          <a href="/" class="mx-2">TERMS OF USE</a>
+          <a href="/" class="mx-2">PRIVACY POLICY</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/all.min.js"></script>
+    <script src="./js/gsap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+  </body>
+</html>
